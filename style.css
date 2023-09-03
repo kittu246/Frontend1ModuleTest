@@ -61,6 +61,7 @@ main {
 }
 .hero-section-2 {
   flex: 1;
+  margin-left: 2rem;
 }
 .hero-card-small {
   
@@ -474,6 +475,9 @@ flex-shrink: 0;
     }
   .hero-section-1 > h1{
     text-align: center;
+  }
+  .arrow-image{
+    display: none;
   }
   
 
