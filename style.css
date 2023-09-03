@@ -22,13 +22,15 @@ header {
   font-weight: 400;
 }
 main {
-  width: 90%;
-  margin-inline: auto;
+  width:100%;
+  
   
 }
 .hero-section {
   background-color: #ffffff;
   flex-wrap: wrap;
+  padding-inline: 5rem;
+  
 }
 .hero-section-1 {
   flex: 2;
@@ -194,6 +196,10 @@ main {
 
 .courses {
   margin-top: 5rem;
+  background-color: #ECF8FF !important;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  
 }
 
 .courses > h4 {
@@ -308,6 +314,9 @@ main {
   width: 210px;
   margin-top: 1rem;
 }
+.companies{
+    padding-inline: 5rem;
+}
 .companies-1 {
   margin-top: 10rem;
   text-align: center;
@@ -358,6 +367,9 @@ main {
 .companies-4 {
   width: 169px;
 }
+.feedback{
+    padding-inline:5rem;
+}
 .feedback > h2 {
   color: #2b2f34;
   text-align: center;
@@ -389,7 +401,7 @@ main {
   border: 2px solid #d7d7d7;
   background: #fff;
   box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
-  width: 390px;
+  width: 360px;
   height: fit-content;
   margin: 0.5rem;
 }
@@ -422,7 +434,7 @@ main {
   width: 26px;
   height: 26px;
   position: absolute;
-  left: 324px;
+  left: 290px;
   top: 8px;
 }
 .card-para {
